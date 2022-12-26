@@ -22,9 +22,33 @@
       body {
         font-family: 'Open Sans', sans-serif;
       }
+      
+      /* Add a top navigation bar with the Yelp logo */
+      .navbar {
+        display: flex;
+        align-items: center;
+        background-color: #0072C6;
+        height: 50px;
+      }
+      .navbar img {
+        height: 30px;
+        margin-left: 20px;
+      }
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 20px;
+      }
     </style>
   </head>
   <body>
+    <div class="navbar">
+      <a href="#"><img src="yelp-logo.png" alt="Yelp logo"></a>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
     <h1>My GitHub Repository</h1>
     <p>Welcome to my GitHub repository! Here you can find all of my open source projects.</p>
     <h2>Projects</h2>
