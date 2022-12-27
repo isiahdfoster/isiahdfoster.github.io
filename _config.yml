@@ -6,3 +6,32 @@ url: "https://zaydayze.github.io" # the base hostname & protocol for your site
 show_downloads: true
 
 
+# Build settings
+markdown: kramdown
+remote_theme: pages-themes/hacker@v0.2.0
+permalink: pretty
+
+# Navigation links
+nav:
+  - Home: /
+  - About: /about
+  - Blog: /blog
+  - Contact: /contact
+
+# Output settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - .sass-cache
+  - .github
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+
