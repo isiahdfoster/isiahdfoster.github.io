@@ -3,9 +3,12 @@ title: Isiah Fosters Github Repos
 description: Codes updates, used or created by Isiah Foster
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zaydayze.github.io" # the base hostname & protocol for your site
+show_downloads: true
+
 
 # Build settings
 markdown: kramdown
+remote_theme: pages-themes/tactile@v0.2.0
 permalink: pretty
 
 # Navigation links
@@ -30,3 +33,4 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
