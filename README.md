@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+[back](./)
 # My Personal Code Repository
 
 Welcome to my personal code repository! This is where I store and manage all of my code projects, both past and present. Whether I am working on a small script or a larger application, this repository is where I keep all of my code organized and easily accessible.
